@@ -1,0 +1,111 @@
+@import url(https://fonts.googleapis.com/css?family=Poetsen+One&display=swap);
+
+
+body{
+    font-family: Poetsen One, Roboto;
+    background: linear-gradient(180deg, #1a1a22 0%, #0b0a0a 100%) 
+}
+
+p {
+    color: aquamarine;
+}
+
+a {
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.custom-navbar {
+    background: linear-gradient(180deg, #1a1a22 0%, #0b0a0a 100%) 
+
+}
+
+
+
+.nav-link {
+    color: aquamarine;
+}
+
+.navbar-nav .nav-link.active {
+   color: rgb(129, 72, 72); 
+}
+
+.navbar-brand>img {
+    width: 20px;
+}
+
+.navbar-toggler {
+    background: linear-gradient(120deg, #606080 0%, #272323 100%) 
+}
+
+.sidebar {
+    color: aquamarine;
+    background: linear-gradient(270deg, #1a1a22 0%, #0b0a0a 100%) 
+}
+
+.card {
+    background: linear-gradient(270deg, #1a1a22 0%, #0b0a0a 100%);
+    color: aqua;
+}
+
+.card a {
+    text-decoration: none;
+    color: aqua;
+}
+
+.slide-text,
+.footer-text {
+    color: aquamarine;
+    margin: auto auto;
+}
+
+footer,
+.btn-outline-primary {
+    background: linear-gradient(180deg, #1a1a22 0%, #0b0a0a 100%) 
+}
+
+.media-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-animation {
+    animation: myAnim 2s ease 0s 1 normal forwards;
+}
+
+.custom-button {
+    width: 180px; /* Задайте желаемую ширину */
+    height: 50px; /* Задайте желаемую высоту */
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px; /* Задайте размер шрифта */
+    margin: 5px; /* Задайте отступы, если нужно */
+    
+}
+
+
+.green-button {
+    background-color: rgba(2, 141, 2, 0.822) !important;
+    border-color: rgb(3, 119, 3) !important;
+}
+
+.blue-button {
+    background-color: rgb(0, 101, 253) !important;
+    border-color: blue !important;
+}
+
+.custom-button:hover {
+    opacity: 0.8; /* Эффект при наведении */
+}
+
+
+
+@media (max-width: 755px) {
+    .carousel-indicators {
+        display: none;  
+    }
+    
+}
+
